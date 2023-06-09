@@ -1,2 +1,3 @@
-# DeepT2: Protein language model-based end-to-end type II polyketide prediction without sequence alignment
-DeepT2 utilizes deep learning techniques to identify type II polyketide (T2PK) synthases KSβ and their corresponding T2PK product within bacterial genomes. The method leverages ESM2 to transform KSβ sequences into embeddings, which are employed to train two separate classifiers using multi-layer perceptron for both KSβ and T2PKs classification. 
+# DeepT2: A deep learning model for type II polyketide natural product prediction
+## Introduction 
+DeepT2 utilizes deep learning techniques to identify type II polyketide (T2PK) synthases KSβ and their corresponding T2PK product within bacterial genomes. The method leverages ESM2 to transform KSβ sequences into embeddings, which are employed to train two separate classifiers using multi-layer perceptron for both KSβ and T2PKs classification. In addition, out model could easily detect and classify KSβ either as a single sequence or metagenome input, and subsequently identify the corresponding T2PKs in a labeled categorized class or as novel.
