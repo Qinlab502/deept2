@@ -20,3 +20,16 @@ For genome input, we suggest prokka for CDS prediction:
 ```bash
 prokka
 ```
+## Dataset and model
+
+
+## Citation and contact
+Citation:
+
+
+
+Contact:
+
+
+Zhiwei Qin(z.qin@bnu.edu.cn)
+Jiaquan Huang(jiaquan_terry@bnu.edu.cn)
