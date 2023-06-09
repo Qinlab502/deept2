@@ -9,7 +9,7 @@ DeepT2 utilizes deep learning techniques to identify type II polyketide (T2PK) s
 python 3.8\
 pytorch 2.0\
 pandas 1.1.0\
-fair-esm\
+fair-esm 2.0.0\
 scikit-learn 1.2.2
 
 ## Pretrained language model
