@@ -16,4 +16,7 @@ scikit-learn 1.2.2
 To run DeepT2, it requires the use of the pretrained protein language model ESM2. You can download the pretrained ESM2 model with 3B parameters using this link [(Link)](https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t36_3B_UR50D.pt).
 
 ## Run DeepT2 for prediction
-For
+For genome input, we suggest prokka for CDS prediction:
+```bash
+prokka
+```
