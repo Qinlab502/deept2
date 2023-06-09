@@ -13,4 +13,4 @@ esm2 3B
 scikit-learn 1.2.2
 
 ##Pretrained language model
-Pretrained protein language model ESM2 are needed to run DeepT2: Downloading the pretrained ESM2 model with 3B parameters (Link(https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t36_3B_UR50D.pt)).
+Pretrained protein language model ESM2 are needed to run DeepT2: Downloading the pretrained ESM2 model with 3B parameters [Link](https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t36_3B_UR50D.pt).
