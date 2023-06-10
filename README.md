@@ -36,9 +36,8 @@ And the prediction results will be saved in
 ```bash
 ./results
 ```
-We also provide the corresponding canonical prediction results in ```bash ./example/demo_result``` for your reference.
+We also provide the corresponding canonical prediction results in ```bash ./example_output``` for your reference.
 ## Dataset and model
-
 
 ## Citation and contact
 Citation:
