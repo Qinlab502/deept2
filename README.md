@@ -16,10 +16,27 @@ scikit-learn 1.2.2
 To run DeepT2, it requires the use of the pretrained protein language model ESM2. You can download the pretrained ESM2 model with 3B parameters using this link [(Link)](https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t36_3B_UR50D.pt).
 
 ## Run DeepT2 for prediction
-For genome input, we suggest prokka for CDS prediction:
+For single genome input, we suggest prokka for CDS prediction:
 ```bash
-prokka
+prokka genome.fa --outdir ./output --prefix XX --kingdom Bacteria --rfam
 ```
+However, the header of the generated FAA file should be simplified using the following command:
+```bash
+sed -i 's/ .*//' your_file.faa
+```
+Next, the FAA file should be converted to embedding when ESM2(3B) model was prepared:
+```bash
+python extract.py esm2_t36_3B_UR50D ./your_file.faa ./embedding --repr_layers 36 --include mean
+```
+Finally, simply run:
+```bash
+python DeepT2.py --fasta your_file.faa --embedding ./embedding --output ./results --name your_strain
+```
+And the prediction results will be saved in
+```bash
+./results
+```
+We also provide the corresponding canonical prediction results in ```bash ./example/demo_result``` for your reference.
 ## Dataset and model
 
 
