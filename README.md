@@ -47,5 +47,5 @@ Our work has been published in bioRxiv. Detailed information could be found in h
 
 Contact:
 
-Zhiwei Qin(z.qin@bnu.edu.cn)
+Zhiwei Qin(z.qin@bnu.edu.cn)\
 Jiaquan Huang(jiaquan_terry@bnu.edu.cn)
