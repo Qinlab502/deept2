@@ -38,14 +38,13 @@ And the prediction results will be saved in
 ```
 We also provide the corresponding canonical prediction results in ```bash ./example_output``` for your reference.
 ## Dataset and model
+We provide the datasets and the trained DeepT2 models here for those interested in reproducing our paper. The datasets used in this study are stored in ```bash ./datasets/```. The trained LMDisorder models can be found under ```bash./model/```.
 
 ## Citation and contact
 Citation:
-
-
+Our work has been published in bioRxiv. Detailed information could be found in https://doi.org/10.1101/2023.04.18.537339
 
 Contact:
-
 
 Zhiwei Qin(z.qin@bnu.edu.cn)
 Jiaquan Huang(jiaquan_terry@bnu.edu.cn)
