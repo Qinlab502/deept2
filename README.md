@@ -6,8 +6,9 @@ DeepT2 utilizes deep learning techniques to identify type II polyketide (T2PK) s
 ![Biosynthesis-2_page-0001](https://github.com/Qinlab502/deept2/assets/117368489/670bb1b3-1cf7-4011-a114-f24cc47acc87)
 
 ## System requirment
-We provide the DeepT2 conda environment, which can be built via ```conda env create -f ./scripts/environment.yml```.
+We provide the DeepT2 conda environment, which can be built via ```conda env create -f environment_gpu.yml```.
 The inclusion of the ```cudatoolkit==11.1.1``` dependency is deemed unnecessary in the absence of a GPU within the system configuration.
+```conda env create -f environment_cpu.yml``` were optional.
 
 ## Pretrained language model
 To run DeepT2, it requires the use of the pretrained protein language model ESM2. You can download the pretrained ESM2 model with 3B parameters using this link [(Link)](https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t36_3B_UR50D.pt).
