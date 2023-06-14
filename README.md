@@ -38,7 +38,7 @@ And the prediction results will be saved in
 ```
 We also provide the corresponding canonical prediction results in ```bash ./example/example_result``` for your reference.
 ## Dataset and model
-We provide the datasets and the trained DeepT2 models here for those interested in reproducing our paper. The datasets used in this study are stored in ```bash ./datasets/```. The trained DeepT2 models can be found under ```bash./model/```.
+We provide the datasets and the trained DeepT2 models here for those interested in reproducing our paper. The datasets used in this study are stored in ```./datasets/```. The trained DeepT2 models can be found under ```./model/```.
 
 ## Citation and contact
 Citation:
