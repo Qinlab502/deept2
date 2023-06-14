@@ -13,14 +13,14 @@ The inclusion of the ```cudatoolkit==11.1.1``` dependency is deemed unnecessary 
 ## Pretrained language model
 To run DeepT2, it requires the use of the pretrained protein language model ESM2. You can download the pretrained ESM2 model with 3B parameters using this link [(Link)](https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t36_3B_UR50D.pt).
 
-## Run DeepT2 for prediction
-For single genome input, we suggest prokka for CDS prediction:
+## Installation
+### Ubuntu
 ```bash
-prokka genome.fa --outdir ./output --prefix XX --kingdom Bacteria --rfam
+git clone https://github.com/Qinlab502/deept2.git
 ```
-However, the header of the generated FAA file should be simplified using the following command:
+Building conda environment:
 ```bash
-sed -i 's/ .*//' your_file.faa
+conda env create -f environment_gpu.yml
 ```
 Next, the FAA file should be converted to embedding when ESM2(3B) model was prepared:
 ```bash
