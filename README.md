@@ -27,7 +27,7 @@ We have developed a Nextflow pipeline that allows users to easily execute DeepT2
 ```bash
 nextflow run DeepT2.nf --genome "$PWD/genome.fasta" --outdir "$PWD/output" --prefix "Your sample"
 ```
-Notably, the excuted DeepT2.nf should be placed in downloaded folder.\n
+Notably, the excuted DeepT2.nf should be placed in downloaded folder.\
 We have provided example files for user reference:
 ```bash
 nextflow run DeepT2.nf --genome "$PWD/example/Str_kana.fasta" --outdir "$PWD/output/Str_kana_result" --prefix "Str_kana"
