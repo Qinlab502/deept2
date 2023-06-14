@@ -1,0 +1,26 @@
+name: test
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+dependencies:
+  - conda-forge::python=3.8
+  - conda-forge::pip
+  - bioconda::prokka==1.14.6
+  - bioconda::seqkit==2.4.0
+  - bioconda::megahit==1.2.8
+  - bioconda::nextflow==23.04.1
+  - bioconda::hmmer==3.3.2
+  - pytorch::pytorch=1.9.0
+  - pip:
+      - biopython==1.79
+      - pandas==1.3.4
+      - numpy==1.21.0
+      - fair-esm==2.0.0
+      - scikit-learn==1.2.2
+      - joblib==1.2.0
+      - umap-learn==0.5.3
+      - plotly==5.11.0
+      - h5py==2.10.0
+      
+      
