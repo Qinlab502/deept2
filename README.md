@@ -23,23 +23,18 @@ Building conda environment:
 ```bash
 conda env create -f environment_gpu.yml
 ```
-We have developed a Nextflow pipeline that allows users to easily execute DeepT2 prediction using either a bacteria genome or metagenome input:
+Next, we have developed a Nextflow pipeline that allows users to easily execute DeepT2 prediction using either a bacteria genome or metagenome input:
 ```bash
 nextflow run DeepT2.nf --genome "$PWD/genome.fasta" --outdir "$PWD/output" --prefix "Your sample"
 ```
 Notably, the excuted DeepT2.nf should be placed in downloaded folder.\
-We have provided example files for user reference:
+Here is an example command for user reference:
 ```bash
 nextflow run DeepT2.nf --genome "$PWD/example/Str_kana.fasta" --outdir "$PWD/output/Str_kana_result" --prefix "Str_kana"
 ```
-
-Finally, simply run:
-```bash
-python DeepT2.py --fasta your_file.faa --embedding ./embedding --output ./results --name your_strain
-```
 And the prediction results will be saved in
 ```bash
-./results
+./output
 ```
 We also provide the corresponding canonical prediction results in ```bash ./example_output``` for your reference.
 ## Dataset and model
