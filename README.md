@@ -36,6 +36,7 @@ And the prediction results will be saved in
 ```bash
 ./output
 ```
+Tips: Nextflow will generate cache files that are stored in the ```work``` folder. Please feel free to delete this folder once the task has been completed.
 We also provide the corresponding canonical prediction results in ```bash ./example/example_result``` for your reference.
 ## Dataset and model
 We provide the datasets and the trained DeepT2 models here for those interested in reproducing our paper. The datasets used in this study are stored in ```./datasets/```. The trained DeepT2 models can be found under ```./model/```.
