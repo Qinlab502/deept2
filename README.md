@@ -30,13 +30,13 @@ nextflow run DeepT2.nf --genome "$PWD/genome.fasta" --outdir "$PWD/output" --pre
 Notably, the excuted DeepT2.nf should be placed in downloaded folder.\
 Here is an example command for user reference:
 ```bash
-nextflow run DeepT2.nf --genome "$PWD/example/Str_kana.fasta" --outdir "$PWD/output/Str_kana_result" --prefix "Str_kana"
+nextflow run DeepT2.nf --genome "$PWD/example/example.fasta" --outdir "$PWD/output/example_result" --prefix "example"
 ```
 And the prediction results will be saved in
 ```bash
 ./output
 ```
-We also provide the corresponding canonical prediction results in ```bash ./example_output``` for your reference.
+We also provide the corresponding canonical prediction results in ```bash ./example/example_result``` for your reference.
 ## Dataset and model
 We provide the datasets and the trained DeepT2 models here for those interested in reproducing our paper. The datasets used in this study are stored in ```bash ./datasets/```. The trained DeepT2 models can be found under ```bash./model/```.
 
