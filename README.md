@@ -23,10 +23,16 @@ Building conda environment:
 ```bash
 conda env create -f environment_gpu.yml
 ```
-Next, the FAA file should be converted to embedding when ESM2(3B) model was prepared:
+We have developed a Nextflow pipeline that allows users to easily execute DeepT2 prediction using either a bacteria genome or metagenome input:
 ```bash
-python extract.py esm2_t36_3B_UR50D ./your_file.faa ./embedding --repr_layers 36 --include mean
+nextflow run DeepT2.nf --genome "$PWD/genome.fasta" --outdir "$PWD/output" --prefix "Your sample"
 ```
+Notably, the excuted DeepT2.nf should be placed in downloaded folder.
+We have provided example files for user reference:
+```bash
+nextflow run DeepT2.nf --genome "$PWD/example/Str_kana.fasta" --outdir "$PWD/output/Str_kana_result" --prefix "Str_kana"
+```
+
 Finally, simply run:
 ```bash
 python DeepT2.py --fasta your_file.faa --embedding ./embedding --output ./results --name your_strain
