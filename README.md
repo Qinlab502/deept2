@@ -15,7 +15,7 @@ To run DeepT2, it requires the use of the pretrained protein language model ESM2
 
 ## Installation
 ### Ubuntu
-Acquiring package:
+You can acquire package throug ```git clone``` or directly download zip file:
 ```bash
 git clone https://github.com/Qinlab502/deept2.git
 ```
