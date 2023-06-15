@@ -36,7 +36,7 @@ And the prediction results will be saved in:
 ```bash
 ./output
 ```
-We also provide the corresponding canonical prediction results in ```bash ./example/example_result``` for your reference.
+We also provide the corresponding canonical prediction results in ```./example/example_result``` for your reference.
 
 Tips: Nextflow will generate cache files that are stored in the ```work``` folder. Please feel free to delete this folder once the task has been completed.
 ## Dataset and model
