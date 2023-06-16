@@ -1,4 +1,4 @@
-name: test
+name: Deept2
 channels:
   - conda-forge
   - bioconda
